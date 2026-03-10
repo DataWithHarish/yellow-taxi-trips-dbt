@@ -1,0 +1,9 @@
+sources:
+  - name: taxi_data
+    description: "raw parquet taxi trips data"
+    database: taxi_db
+    schema: ingest_data
+    tables:
+      - name: taxi_trips_raw
+        description: "raw taxi trip details"
+        
